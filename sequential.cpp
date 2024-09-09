@@ -8,7 +8,7 @@
 #include <iomanip>
 #include <queue>
 
-#include "a1-helpers.hpp"
+#include "helpers.hpp"
 
 int main(int argc, char **argv)
 {
@@ -18,7 +18,6 @@ int main(int argc, char **argv)
     std::string filename = "input.txt";
     parse_args(argc, argv, num_threads, filename, no_exec_times, only_exec_times);
 
-    // start: actual program
     unsigned int primes = 0, nonprimes = 0;
     double mean = 0.0;
 

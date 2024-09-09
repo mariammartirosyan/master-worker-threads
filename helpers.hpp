@@ -1,7 +1,6 @@
 
 /**
  * Check if the number is prime.
- * Do not modify this function!
  *
  * @param[in] number
  * @returns integer
